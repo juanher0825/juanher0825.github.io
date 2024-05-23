@@ -36,8 +36,8 @@ jobs:
         env:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          git config --global user.name 'Your Name'
-          git config --global user.email 'you@example.com'
+          git config --global user.name 'Juan Hernández'
+          git config --global user.email 'juanher0825@gmail.com'
           git checkout --orphan gh-pages
           git rm -rf .
           cp -r build/* .
